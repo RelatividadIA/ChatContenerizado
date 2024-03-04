@@ -135,18 +135,21 @@ textarea {
 .top-section {
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 20px;
-    padding: 20px;
-    background-color: #202020; /* Fondo oscuro para la sección superior */
+    justify-content: center; /* Esto centrará el contenido */
+    position: relative; /* Esto permite posicionar absolutamente el logo dentro */
+    padding-left: 10px;
+    gap: 20px; /* Espacio entre el logo y el título, si es necesario */
     width: 100%;
     box-sizing: border-box;
     font-family: 'League Spartan', sans-serif;
 }
 
 .logo {
-    width: 50px;
+    position: absolute; /* Posiciona el logo de forma absoluta */
+    left: 0; /* Alinea el logo a la izquierda */
+    width: 300px; /* Tamaño del logo */
     height: auto;
+    margin-left: 20px; /* Espacio desde el borde izquierdo */
 }
 
 .text-between {
@@ -156,5 +159,8 @@ textarea {
     color: #fff; /* Texto claro */
     font-family: 'League Spartan', sans-serif;
 }
+
+
+
 
 /* Ajustes adicionales para el tema nocturno que quieras añadir */
