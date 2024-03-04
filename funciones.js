@@ -32,7 +32,7 @@ function inicializarChat(chat_id) {
     }
 }
 
-function cargarChat(id) {
+function cargarChat(id, training_prompt) {
     // URL del contenido HTML a cargar dinámicamente
     const url = `chat-container-${id}.html`
     var chat_id = id
