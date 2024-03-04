@@ -43,6 +43,9 @@ body {
     align-items: center;
     width: 100%;
     justify-content: space-between;
+    font-family: 'League Spartan', sans-serif;
+    
+    
 }
 
 .profile-picture img {
@@ -138,6 +141,7 @@ textarea {
     background-color: #202020; /* Fondo oscuro para la sección superior */
     width: 100%;
     box-sizing: border-box;
+    font-family: 'League Spartan', sans-serif;
 }
 
 .logo {
@@ -150,6 +154,7 @@ textarea {
     margin: 20px 0;
     font-size: 18px;
     color: #fff; /* Texto claro */
+    font-family: 'League Spartan', sans-serif;
 }
 
 /* Ajustes adicionales para el tema nocturno que quieras añadir */
